@@ -1,0 +1,43 @@
+* {
+    font-family: sans-serif;
+}
+
+main {
+    width: 45%;
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    color: rgba(0, 96, 223, 1);
+    text-transform: uppercase;
+}
+
+footer {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+}
+
+#peepoImg {
+    animation-duration: 1s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    position: absolute;
+    bottom: 20%;
+    right: 11%;
+}
+
+@keyframes slidein {
+    0% {
+        width: 100px;
+    }
+  
+    50% {
+        width: 150px;
+    }
+}
